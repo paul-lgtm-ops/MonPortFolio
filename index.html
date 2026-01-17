@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paul PortFolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="1768414900913.jpg" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#portfolio">PortFolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()" id="hiddenmenu"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web developer</p>
+                <h1>Hi, I'm <span>Paul</span> <br>ACHUNGE from DRC</h1>
+            </div>
+
+        </div>
+    </div> 
+
+    <!-- ----------------------------------About------------------------------ -->
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="1768417852875.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Ambitious and eager to learn, i aim to contribute to the achievement of the company's objectives while seeking to acquire new knowledge and deepen my skills and experience for a more efficient execution of my maks.</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+                            <li><span>Electrical Engineer</span><br>Development of our area in electricity domain</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2026-current</span><br>Web developer</li>
+                            <li><span>2024-2026</span><br>learning Web Development</li>
+                            <li><span>2018-2024</span><br>Training Electrical's maintenance</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2022-current</span><br>Bac+4 Education</li>
+                            <li><span>2022</span><br>State Diploma</li>
+                            <li><span>2016</span><br>basic Education</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- -----------------------------------------Services------------------------------------------- -->
+    <div id="Services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>Web developer</h2>
+                    <p>We are developing applications used in commerce that facilitate a mutual connection between merchants and customers before the product's obtained</p>
+                    <a href="#">Learn more</a>
+                    
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Create our design's applications to allow users to understand its purpose before using it. </p>
+                    <a href="#">Learn more</a>
+                    
+                </div>
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Electrical Domain</h2>
+                    <p>network maintenance, central maintenance, network intervation, domestic and industriel installation</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------------------portfolio------------------------------------- -->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="IMG-20251104-WA0000.jpg">
+                    <div class="layer">
+                        <h3>SellFourmi</h3>
+                        <p>The app connects you to marchents around the word.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="1768616857627.jpg">
+                    <div class="layer">
+                        <h3>Learning</h3>
+                        <p>Sleep less stupid than the day before</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    
+                    <img src="IMG-20251006-WA0081.jpg">
+                    <div class="layer">
+                        <h3>Electrical's installation</h3>
+                        <p>For lighting, ventillation, security and sound system of your homes.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">see More</a>
+        </div>
+     </div>
+
+     <!-- -------------------------------------contact---------------------------------------- -->
+      <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fas fa-paper-plane"></i> <a href="#">achungejeanpaul@gmail.com</a></p>
+                    <p><i class="fas fa-phone-square-alt"></i> +243_974_550_684</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                        <a href=""><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                    <a href="Paul ACHUNGE.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form id="monFormulaire" >
+                        <input type="text" name="nom" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2"> submit</button>
+                        <div id="status"></div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright ~ Let's develop the world of tomorrow together~</p>
+        </div>
+      </div>
+    <script>
+        var tablinks=document.getElementsByClassName('tab-links');
+        var tabcontents=document.getElementsByClassName('tab-contents');
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        var menu=document.getElementById("hiddenmenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+            menu.style.right="-200px"
+
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+            menu.style.right="35px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw6GbevF67ZGLRhQUsUDobcQsW2_LvTdOdi9hawMK7RSPUbPwNk5SkFYBsLAPpqR_QC/exec'; // <--- COLLEZ VOTRE URL ICI
+        const form = document.getElementById('monFormulaire');
+        const statusDiv = document.getElementById('status');
+
+        form.addEventListener('submit', e => {
+            e.preventDefault();
+            statusDiv.innerHTML = "Envoi en cours...";
+
+            fetch(scriptURL, { 
+                method: 'POST', 
+                body: new FormData(form)
+            })
+            .then(response => {
+                statusDiv.innerHTML = "Bravo ! Les données sont dans Google Sheets.";
+                form.reset();
+            })
+            .catch(error => {
+                statusDiv.innerHTML = "Erreur ! " + error.message;
+                console.error('Erreur:', error);
+            });
+        });
+    </script>
+</body>
+</html>
