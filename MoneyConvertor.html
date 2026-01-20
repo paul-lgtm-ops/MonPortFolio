@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertir la monaie</title>
+    <link rel="stylesheet" href="MoneyConvertor.css">
+</head>
+<body>
+    <div class="Monai-container">
+        <h2>Currency Converter</h2>
+        <div class="MyMonnaie">
+            <select name="monaie" id="maMonnaie" class="maMonnaie-first">
+                <option value="AUD">AUD</option>
+                <option value="CAD">CAD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="INR">INR</option>
+                <option value="JPY">JPY</option>
+                <option value="USD" selected>USD</option>
+            </select>
+            <input type="number" value="1" min="0" id="worth-first">
+        </div>
+        <div class="MyMonnaie">
+            <select name="monaie" id="maMonnaie" class="maMonnaie-second">
+                <option value="AUD">AUD</option>
+                <option value="CAD">CAD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="INR">INR</option>
+                <option value="JPY" selected>JPY</option>
+                <option value="USD">USD</option>
+            </select>
+            <input type="number" min="0" id="worth-second" disabled>
+        </div>
+        <p class="exchange-rate" id="exchange-rate">1 USD = 138.5802 JPY </p>
+    </div>
+    <script src="Moneyconvertor.js"></script>
+</body>
+</html>
